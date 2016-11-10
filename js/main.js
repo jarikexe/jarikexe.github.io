@@ -8,7 +8,7 @@ var secounds = document.getElementById("seounds");
 
 setInterval(function(){
 //Calculating what time is left
-var dateToReach = new Date(2016, 11, 24,  19, 00,00);
+var dateToReach = new Date(2016, 11, 24);
 var now = new Date();
 
 var culc = function(date1, date2){
